@@ -1,0 +1,28 @@
+* {margin: 0; padding: 0}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    background-color: #F2EDD9;
+    color: #0f0f0f;
+}
+
+#error {
+    width: 50vw;
+    text-align: center;
+    margin-top: -5vw;
+}
+
+#error_title {
+    font-size: 4vw;
+}
+
+#error_text {
+    margin-top: 1vw;
+    font-size: 1.4vw;
+}
